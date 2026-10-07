@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "react-router"
 import useAuth from "../hooks/useAuth"
 import { useState } from "react"
+import logo from '../assets/vite.svg'
+
 
 export default function Signin(){
 
@@ -38,7 +40,7 @@ export default function Signin(){
     return(
         <div className="min-h-screen flex">
             <div className="bg-indigo-500 w-2/4 flex flex-col justify-center items-center">
-                <img className="w-36" src="icons.svg" alt="Logo"  />
+                <img className="w-36" src={logo} alt="Logo"  />
                 <p className="m-2 text-3xl text-white">Venha Codar com React + Vite</p>
             </div>
             <div className="w-2/4 border-2 min-h-screen flex flex-col justify-center items-center">
