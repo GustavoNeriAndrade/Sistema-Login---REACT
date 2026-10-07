@@ -38,7 +38,7 @@ export default function Signup(){
         }
 
         alert('Conta criada com sucesso!')
-        navigate('  /signin')
+        navigate('/signin')
     }
 
 
